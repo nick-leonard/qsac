@@ -1,7 +1,5 @@
 # qsac: Amazon QuickSight as code
 
-*Working name.*
-
 Keep QuickSight analyses and dashboards in git as reviewable files, lint them against numbered rules, and deploy them through CI.
 
 The tool is generic. It knows nothing about the project that uses it: every project-specific value comes from the project's `qsac.yaml`, which the tool finds by walking up from the working directory. It never imports, reads or names anything else in the host project.
